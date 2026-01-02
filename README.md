@@ -59,8 +59,8 @@ We opted for the **Keras Functional API** over PyTorch for this specific impleme
 
 The model achieves exceptional sensitivity and specificity in distinguishing viral pathogens (e.g., COVID-19 VS Negative/Others).
 
--   **F1 Score**: > 0.95
--   **Accuracy**: > 95%
+-   **F1 Score**: > 0.90
+-   **Accuracy**: > 90%
 
 ## 📂 Project Structure
 
