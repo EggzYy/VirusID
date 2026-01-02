@@ -1,7 +1,7 @@
 # VirusID
-Identify Pathogens with Native Flouresence Signals and CBAM-STA CRNN
+## Identify Pathogens with Native Flouresence Signals and CBAM-STA CRNN
 
-Introduction:
+### Introduction:
 
 Regardless of the COVID-19 pandemic that reshaped both lives and industries, there has always been a strong interest in developing measurement tools suitable for rapid, reliable, and low-cost analyses for diagnostic purposes.
 Sensing and biosensing face this issue by exploiting knowledge and technologies from different topics. It is extremely important to develop procedures that allow both good limits of detection (LOD) and high sensitivity while preserving its attitude to recognize specific molecules (1).
@@ -13,33 +13,38 @@ The A.I.-based solution for marker signal detection/processing eliminates bioche
 
 
 
-Necessary Files to train:
-20210329_test.csv: 
+### Necessary Files to train:
+
+#### 20210329_test.csv: 
 https://drive.google.com/file/d/1hiqb2zbdCbWXjRQb-bcKrkO2wbYPyFjx/view?usp=sharing
-20210329_train.csv
+#### 20210329_train.csv
 https://drive.google.com/file/d/1HLpzDwT_mifkQ6pYQBc3tJqCdoLR6yUg/view?usp=sharing
 
-Treshold optimization output:
-training_FANFAN_3.csv
+### Treshold optimization output:
+
+#### training_FANFAN_3.csv
 https://drive.google.com/file/d/1-1_UAzkiagMmHk_r9Zugunv8-Rw1xbM_/view?usp=sharing
 
-Training Outputs:
-best_model_file_FANFAN_3.keras
+### Training Outputs:
+
+#### best_model_file_FANFAN_3.keras
 https://drive.google.com/file/d/1-pupP9vweK42Q73cVDRtm5AkKsfFDapw/view?usp=sharing
-cbam_trial_FANFAN_3.keras
+#### cbam_trial_FANFAN_3.keras
 https://drive.google.com/file/d/1-JBPNIDqRIyTKmf41HnR9zc1QGaS3Vyo/view?usp=sharing
-cbam_trial_FANFAN_3.h5
+#### cbam_trial_FANFAN_3.h5
 https://drive.google.com/file/d/1-JN3976FcDlyNYtBthkyvsjrOz04PJA0/view?usp=sharing
 
-Another Model to Ensamble with the Trained Model to increase Generalization:
-cbam_trial_FANFAN_2.keras
+### Another Model to Ensamble with the Trained Model to increase Generalization:
+
+#### cbam_trial_FANFAN_2.keras
 https://drive.google.com/file/d/1--Xw9u9AYK56-GwhFXw6xTr0LmxNxp7M/view?usp=sharing
 
-Output Ensemble Model:
-ensemble_model_fan.keras
+### Output Ensemble Model:
+
+#### ensemble_model_fan.keras:
 https://drive.google.com/file/d/1-1CyH-rsmKuJ6sXMKaTSq1HO2Djzvk0a/view?usp=sharing
 
-References:
+### References:
 1. Jung Y, Jeong JY, Chung BH. Recent advances in immobilization methods of antibodies on solid supports. Analyst. 2008;133(6):697-701. doi:10.1039/b800014j
 2. Henry Timmers, Abijith Kowligy, Alex Lind, Flavio C. Cruz, Nima Nader, Myles Silfies, Gabriel Ycas, Thomas K. Allison, Peter G. Schunemann, Scott B. Papp, and Scott A. Diddams, "Molecular fingerprinting with bright, broadband infrared frequency combs," Optica 5, 727-732 (2018)
 3. Kendall C, Isabelle M, Bazant-Hegemark F, et al. Vibrational spectroscopy: a clinical tool for cancer diagnostics. The Analyst. 2009 Jun;134(6):1029-1045. DOI: 10.1039/b822130h.
